@@ -63,16 +63,17 @@ void GPIO::monitorPinValue(bool active)
     }
 }
 
-void GPIO::notifyToogle(int){
+void
+GPIO::notifyToogle(int)
+{
     //printf("%d toogled\n",_pinNumber);
     QByteArray line;
     gpio_value.seek(0);
     //char last_value = current_value;
     line = gpio_value.readAll();
 
-    if (line.size() >= 1) {
-//         abort();
-//    } else {
+    if (line.size() >= 1)
+    {
         char current_value = line[0];
         emit sgChanged((GPIO::PinState) (current_value - 48),this);
         //qDebug() << "click" << current_value;

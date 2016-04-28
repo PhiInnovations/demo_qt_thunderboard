@@ -28,10 +28,9 @@ protected:
 
 private:
     Ui::Keys *ui;
+    QList<GPIO*>    keys;
 
     int m_number;
-
-    QList<GPIO*>    keys;
 
     void addPushButton(int index);
 };

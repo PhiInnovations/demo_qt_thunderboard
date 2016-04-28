@@ -1,0 +1,44 @@
+<RCC>
+    <qresource prefix="/Runner">
+        <file alias="runner-01">images/runner/runner-01.png</file>
+        <file alias="runner-02">images/runner/runner-02.png</file>
+        <file alias="runner-03">images/runner/runner-03.png</file>
+        <file alias="runner-04">images/runner/runner-04.png</file>
+        <file alias="runner-05">images/runner/runner-05.png</file>
+        <file alias="runner-06">images/runner/runner-06.png</file>
+        <file alias="runner-07">images/runner/runner-07.png</file>
+        <file alias="runner-08">images/runner/runner-08.png</file>
+    </qresource>
+    <qresource prefix="/Big-bird">
+        <file alias="big-bird-01">images/big-bird/big-bird-01.png</file>
+        <file alias="big-bird-02">images/big-bird/big-bird-02.png</file>
+        <file alias="big-bird-03">images/big-bird/big-bird-03.png</file>
+        <file alias="big-bird-04">images/big-bird/big-bird-04.png</file>
+        <file alias="big-bird-05">images/big-bird/big-bird-05.png</file>
+        <file alias="big-bird-06">images/big-bird/big-bird-06.png</file>
+        <file alias="big-bird-07">images/big-bird/big-bird-07.png</file>
+        <file alias="big-bird-08">images/big-bird/big-bird-08.png</file>
+        <file alias="big-bird-09">images/big-bird/big-bird-09.png</file>
+        <file alias="big-bird-10">images/big-bird/big-bird-10.png</file>
+        <file alias="big-bird-11">images/big-bird/big-bird-11.png</file>
+        <file alias="big-bird-12">images/big-bird/big-bird-12.png</file>
+        <file alias="big-bird-13">images/big-bird/big-bird-13.png</file>
+        <file alias="big-bird-14">images/big-bird/big-bird-14.png</file>
+    </qresource>
+    <qresource prefix="/Bird">
+        <file alias="bird-01">images/little-bird/bird-01.png</file>
+        <file alias="bird-02">images/little-bird/bird-02.png</file>
+        <file alias="bird-03">images/little-bird/bird-03.png</file>
+        <file alias="bird-04">images/little-bird/bird-04.png</file>
+        <file alias="bird-05">images/little-bird/bird-05.png</file>
+        <file alias="bird-06">images/little-bird/bird-06.png</file>
+        <file alias="bird-07">images/little-bird/bird-07.png</file>
+        <file alias="bird-08">images/little-bird/bird-08.png</file>
+        <file alias="bird-09">images/little-bird/bird-09.png</file>
+        <file alias="bird-10">images/little-bird/bird-10.png</file>
+        <file alias="bird-11">images/little-bird/bird-11.png</file>
+        <file alias="bird-12">images/little-bird/bird-12.png</file>
+        <file alias="bird-13">images/little-bird/bird-13.png</file>
+        <file alias="bird-14">images/little-bird/bird-14.png</file>
+    </qresource>
+</RCC>

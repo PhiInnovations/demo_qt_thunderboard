@@ -5,6 +5,8 @@
 #include <QTimer>
 #include <QDate>
 #include <QDebug>
+#include "toogler.h"
+#include "pwm_ctrl.h"
 
 namespace Ui {
 class MyGui;
@@ -39,6 +41,8 @@ private:
     Ui::MyGui *ui;
 
     QTimer    *m_animationTimer;
+    //Toogler   *toogler;
+    PWM       *toogler;
 
     unsigned int   m_speed;
     unsigned int   m_step;
@@ -57,6 +61,8 @@ private slots:
     void on_iosCheckbox_stateChanged(int arg1);
     void on_windowsCheckbox_stateChanged(int arg1);
     void on_speedControlDial_valueChanged(int value);
+    void on_enable_bt_clicked();
+    void on_period_slider_valueChanged(int value);
 };
 
 #endif // MYGUI_H

@@ -12,7 +12,7 @@ Keys::Keys(QWidget *parent) :
     ui->setupUi(this);
 
     keys.append(new GPIO( 2 , 15 , GPIO::Out)); //28_CN7
-    keys.append(new GPIO( 2 , 25 , GPIO::Out)); //29_CN7
+    keys.append(new GPIO( 2 , 24 , GPIO::Out)); //27_CN7
 
     addPushButton(0);
 
